@@ -27,22 +27,24 @@ mayor1:
             cad = cad + "," + "1"
             c = c + 1
             c1 = c1 + 1
-            TextBox2.Text = cad
+            'TextBox2.Text = cad
             If c1 = max1 Then
                 sw = 0
                 max1 = max1 + 1
                 c1 = 0
             End If
-            GoTo inicio
+            'GoTo inicio
         ElseIf sw = 0 Then
             cad = cad + "," + "0"
             c = c + 1
-            TextBox2.Text = cad
+            'TextBox2.Text = cad
             sw = 1
             'max1 = max1 + 1
-            GoTo inicio
+            'GoTo inicio
 
         End If
+        TextBox2.Text = cad
+        GoTo inicio
 
 fin:
     End Sub
