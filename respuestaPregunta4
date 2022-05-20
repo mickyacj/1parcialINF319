@@ -1,0 +1,1 @@
+ baraja<-data.frame(data.frame((mazoEsp<- data.frame( carta = 1:13,mazo ="espadas" )),(mazoCor<- data.frame( carta = 1:13,mazo ="corazon" ))),data.frame((mazoDia<- data.frame( carta = 1:13,mazo ="diamante" )),(mazoTREB<- data.frame( carta = 1:13,mazo ="trebol" )))) 
